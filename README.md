@@ -11,13 +11,13 @@ cargo build --release
 
 3. Run
 ```
-./target/release/rs-dl -i acc5.csv -f acc5.failed.txt -r 3 --location outputs
+./target/release/assembly-downloader -i acc5.csv -f acc5.failed.txt -r 3 --location outputs
 ```
 
 
 ## To see help:
 
 ```
-./target/release/rs-dl  -h
+./target/release/assembly-downloader  -h
 ```
 
