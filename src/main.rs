@@ -241,7 +241,7 @@ async fn main() -> Result<()> {
         }
 
         // Sleep for 1 second after processing each chunk
-        sleep(Duration::from_secs(1)).await;
+        // sleep(Duration::from_secs(1)).await;
     }
 
     Ok(())
