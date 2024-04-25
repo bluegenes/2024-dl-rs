@@ -103,7 +103,7 @@ async fn process_accession(
 
     let (base_url, full_name) = fetch_full_filename(client, accession).await?;
 
-    let suffixes = vec!["_genomic.fna.gz", "_protein.faa.gz", "_assembly_report.txt"];
+    let suffixes = vec!["_genomic.fna.gz", "_protein.faa.gz"]; //, "_assembly_report.txt"];
     let standalone = vec!["md5checksums.txt"];
 
     for suffix in suffixes.iter() {
