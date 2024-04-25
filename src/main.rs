@@ -7,8 +7,7 @@ use futures::future::join_all;
 use regex::Regex;
 use reqwest::Client;
 use std::fs::{create_dir_all, File};
-use std::{collections::HashSet, fs, time::Duration};
-use tokio::time::sleep;
+use std::{collections::HashSet, fs};
 
 async fn fetch_full_filename(client: &Client, accession: &str) -> Result<(String, String)> {
     let (db, acc) = accession
@@ -240,8 +239,6 @@ async fn main() -> Result<()> {
             }
         }
 
-        // Sleep for 1 second after processing each chunk
-        // sleep(Duration::from_secs(1)).await;
     }
 
     Ok(())
