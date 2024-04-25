@@ -1,0 +1,18 @@
+
+[package]
+name = "assembly-downloader"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+csv = "1.1"
+anyhow = "1"
+clap = "3.0"
+camino = "1.1.6"
+regex = "1.10.4"
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]

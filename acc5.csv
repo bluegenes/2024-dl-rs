@@ -1,0 +1,5 @@
+ident,gtdb_representative,superkingdom,phylum,class,order,family,genus,species
+GCA_000175555.1,f,d__Archaea,p__Thermoproteota,c__Thermoprotei_A,o__Sulfolobales,f__Sulfolobaceae,g__Saccharolobus,s__Saccharolobus solfataricus
+GCA_000337115.1,t,d__Archaea,p__Halobacteriota,c__Halobacteria,o__Halobacteriales,f__Natrialbaceae,g__Natrinema,s__Natrinema thermotolerans
+GCA_000961135.2,f,d__Archaea,p__Thermoproteota,c__Thermoprotei_A,o__Sulfolobales,f__Sulfolobaceae,g__Aramenus,s__Aramenus sulfurataquae
+GCA_001950595.1,f,d__Archaea,p__Halobacteriota,c__Halobacteria,o__Halobacteriales,f__Haloarculaceae,g__Halosegnis,s__Halosegnis longus
